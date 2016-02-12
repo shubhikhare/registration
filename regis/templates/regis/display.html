@@ -1,0 +1,13 @@
+<h1>{{ zeal.name }}</h1>
+<h1>{{ zeal.email }}</h1>
+<h1>{{ zeal.course }}</h1>
+<h1>{{ zeal.branch }}</h1>
+<h1>{{ zeal.contact }}</h1>
+<h1>{{ zeal.college }}</h1>
+<h1>{{ zeal.year}</h1>
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<!--<form action="{% url 'regis:pay' zeal.id %}" method="get">
+{% csrf_token %}
+<input type="submit" value="Pay" />
+</form> -->
